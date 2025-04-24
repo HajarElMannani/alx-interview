@@ -8,7 +8,7 @@ def canUnlockAll(boxes):
     start = [0]
     while start:
         num = start.pop()
-        if num  not in opened:
+        if num not in opened:
             opened.add(num)
             for key in boxes[num]:
                 if key < len(boxes) and key not in opened:
