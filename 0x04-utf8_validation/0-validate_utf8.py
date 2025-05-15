@@ -12,9 +12,9 @@ def validUTF8(data):
             if (byte >> 5) == 0b110:
                 bytes_num = 1
             elif (byte >> 4) == 0b1110:
-                bytes_bum = 2
+                bytes_num = 2
             elif (byte >> 3) == 0b11110:
-                bytes-num = 3
+                bytes_num = 3
             elif (byte >> 7) == 0b0:
                 continue
             else:
