@@ -32,4 +32,3 @@ def isWinner(x, nums):
         return "Maria"
     else:
         return None
-    
