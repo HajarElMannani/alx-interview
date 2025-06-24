@@ -16,7 +16,7 @@ def isWinner(x, nums):
     count_primes = [0] * (num + 1)
     cnt = 0
     for i in range(len(count_primes)):
-        if prime[i] is not None:
+        if prime[i]:
             cnt += 1
         count_primes[i] = cnt
     maria_win = 0
